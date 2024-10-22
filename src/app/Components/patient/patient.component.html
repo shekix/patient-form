@@ -1,0 +1,153 @@
+<form class="m-5 p-5">
+    <h4 >Personal Details</h4>
+    <div class="row">
+      <div class="form-group col-md-4">
+        <label for="Fname">FirstName</label>
+        <input type="text" class="form-control" id="Fname" placeholder="FirstName">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="Lname">LastName</label>
+        <input type="text" class="form-control" id="Lname" placeholder="LastName">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="Gender">Gender</label>
+        <select class="form-select" id="Gender">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+      </div>
+    </div>
+    <div class="row mt-2">
+        <div class="form-group col-md-4">
+          <label for="dob">Date of birth</label>
+          <input type="date" class="form-control" id="dob" >
+        </div>
+        <div class="form-group col-md-4">
+            <label for="MartialStatus">Marital Status</label>
+            <select class="form-select" id="MartialStatus">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+          </div>
+        <div class="form-group col-md-4">
+          <label for="BloodGroup">Blood Group</label>
+          <select class="form-select" id="BloodGroup">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="form-group col-md-6">
+            <label for="Phone">Phone Number</label>
+            <input type="text" class="form-control" id="Phone" placeholder="Phone Number">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Email">Email</label>
+            <input type="text" class="form-control" id="Email" placeholder="Email">
+        </div>
+      </div>
+    <div class="form-group mt-2">
+      <label for="inputAddress">Address Line 1</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group mt-2">
+      <label for="inputAddress2">Address Line 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="row mt-2">
+      <div class="form-group col-md-4">
+        <label for="inputCountry">Country</label>
+        <select id="inputCountry" class="form-select">
+            <option selected>Choose...</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+          </select>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Nagpur">Nagpur</option>
+        </select>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputCity">City</label>
+        <select id="inputCity" class="form-select">
+          <option selected>Choose...</option>
+          <option value="city1">city1</option>
+          <option value="city2">city2</option>
+        </select>
+      </div>
+    </div>
+
+    <h4 class="mt-5">Medical Information</h4>
+
+    <div class="row mt-3">
+        <div class="form-group col-md-6">
+            <label for="Pmh">Past Medical History</label>
+            <select id="Pmh" class="form-select">
+                <option selected>Choose...</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Illness">Current illness</label>
+            <input type="text" class="form-control" id="Illness" >
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="form-group col-md-6">
+            <label for="TreatedBy">Treated By</label>
+            <input type="text" class="form-control" id="TreatedBy" >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Ts">Treatment Status</label>
+            <select id="Ts" class="form-select">
+                <option value="Not Started">Not Started</option>
+                <option value="Ongoing">Ongoing</option>
+                <option value="Completed">Completed</option>
+              </select>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="form-group col-md-4">
+          <label for="insuranceName">Insurance Name</label>
+          <input type="text" class="form-control" id="insuranceName">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="insuranceId">Insurance Id</label>
+          <input type="text" class="form-control" id="insuranceId">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="coverage">Coverage</label>
+          <select id="coverage" class="form-select">
+            <option value="city1">Partial</option>
+            <option value="city2">Full</option>
+          </select>
+        </div>
+    </div>
+    
+    <h4 class="mt-5">Emergency Contact</h4>
+    <div class="row mt-4">
+        <div class="form-group col-md-6">
+            <label for="ContactName">Name</label>
+            <input type="text" class="form-control" id="ContactName" >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="ContactNo">Phone Number</label>
+            <input type="text" class="form-control" id="ContactNo">
+        </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
